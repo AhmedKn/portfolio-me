@@ -1,0 +1,30 @@
+.login-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 400px;
+    border-radius: 10px;
+}
+.name-section , .email-section , .password-section{
+display: flex;
+flex-direction: column;
+}
+.login-section span{
+    color: blue;
+    font-family: sans-serif;
+}
+.login-section input{
+ border: none;
+ border-style: none;
+ border-bottom: blue 1px solid;
+}
+.login-section button{
+border-radius: 5px;
+border-style: none;
+background-color: blue;
+color: white;
+height: 40px;
+width: 80px;
+}

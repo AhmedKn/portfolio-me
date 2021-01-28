@@ -1,0 +1,191 @@
+
+    .title-scrolled{
+        color: blue;
+        font-family: sans-serif;
+        font-size: 45px;
+    }
+    .title-nav{
+        color: white;
+        font-family: sans-serif;
+        font-size: 45px;
+    }
+.nav-bar{
+    padding: 0 10px;
+    margin-top: 18px;
+    transition: margin-top 5000ms cubic-bezier(0, 1.4, 0.9, 0.99);
+    z-index: 3;
+}
+
+.nav-bar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-left: 40px;
+    transition: background 1000ms ;
+    border-radius: 50px;
+}
+.items-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items-links li{
+    list-style: none;
+    list-style-type:none;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.hovred-nscrolled:hover{
+    border-bottom: 2px white solid;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+.fixed{
+    background-color: whitesmoke;
+    border-radius: 50px;
+    transition: background 2500ms ;
+}
+.fixed-tr{
+    transition: margin-top 2000ms cubic-bezier(0.31, 0.28, 1, 1);
+    margin-top: 100px;
+    top : -90px;
+    position: fixed;
+}
+.hovred-scroll:hover{
+border-bottom: blue 2px solid;
+}
+.hamburger-btn{
+    display: none;
+}
+@media (max-width :1200px ){
+    .items-links li{
+        list-style: none;
+        list-style-type:none;
+        padding-top:20px;
+        padding-left:10px;
+        padding-right:10px;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+    body {
+        background: #0575E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+        }
+   
+}
+@media (max-width :992px ){
+    .title-nav{
+ 
+        font-size: 30px;
+    }
+    .items-links li{
+        list-style: none;
+        list-style-type:none;
+        padding-top:12px;
+        padding-left:2px;
+        padding-right:2px;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+   
+}
+@media (max-width :767px ){
+    .title-nav{
+ 
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .items-links li{
+        list-style: none;
+        list-style-type:none;
+        padding-top:8px;
+        padding-left:0px;
+        padding-right:0px;
+        color: white;
+        font-size: 10px;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+   
+}
+
+@media (max-width :549px ){
+    .title-nav{
+ 
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .items-links li{
+        list-style: none;
+        list-style-type:none;
+        padding-top:8px;
+        padding-left:0px;
+        padding-right:0px;
+        color: white;
+        font-size: 9px;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+   
+}
+
+@media (max-width :510px ){
+    .nav-bar-content{
+        display: block;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: fixed;
+        padding-left: 45px;
+        padding-top: 10px;
+        transition: background 1000ms ;
+        border-radius: 30px;
+        width: 170px;
+    }
+    .items-links{
+        display: block;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-left:0 ;
+    }
+    .fixed-tr{
+        transition: margin-top 1500ms cubic-bezier(0, 1.4, 0.9, 0.99);
+        margin-top: 100px;
+        top : -141px;
+        position: fixed;
+    }
+    .title-nav{
+ 
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .items-links li{
+        list-style: none;
+        list-style-type:none;
+        padding-top:8px;
+        padding-left:0px;
+        padding-right:0px;
+        color: white;
+        font-size: 18px;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+    body {
+        background: #0575E6;  /* fallback for old browsers */   
+        }
+}
+

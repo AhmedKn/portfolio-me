@@ -1,0 +1,250 @@
+.contact-section{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+}
+.contact-content h2{
+  color: white;
+  font-size: 48px;
+}
+.contact-content{
+background-color: #0664cb9e;
+  height: 712px;
+  padding: 25px 0 25px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 495px;
+}
+.contact-content div input:nth-child(2){
+margin-left: 20px;
+  }
+
+.contact-content input{
+background-color: inherit;
+  border-style: none;  
+border-bottom: solid 1px white ;
+font-family: sans-serif;
+height: 36px;
+padding-left:8px ;
+color: white;
+}
+.contact-content textarea{ 
+  background-color: inherit;
+  border-style: none;  
+border-bottom: solid 1px white ;
+border-left: solid 1px white ;
+border-right: solid 1px white ;
+font-family: sans-serif;
+height: 150px;
+padding-left:8px ;
+color: white;
+resize: none;
+
+  }
+::placeholder{
+  color: #ffffffa6;
+  font-family: sans-serif;
+}
+.contact-content input:focus{  
+  border-bottom: solid 1px #001c88 ; 
+  }
+  .btns-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-form-send{
+    margin-right: 80px;
+  }
+  .btn-form{
+    height: 50px;
+    width: 150px;
+    border-style: none;
+    border-radius: 4px;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .btn-form-send:hover{
+    background-color: green;
+    color: white;
+    border-bottom: 3px solid #0d501c;
+    border-left: 3px solid #0d501c;
+  }
+  .btn-form-clear:hover{
+    background-color: red;
+    color: white;
+    border-bottom: 3px solid #a00c0c;
+    border-left: 3px solid #a00c0c;
+  }
+  .ncleared{
+background-color:red;  
+display: flex; 
+width: 203px;
+height: 50px;
+justify-content: space-around;
+align-items: center;
+border-radius: 13px;
+position: fixed;
+top: 17%;
+right: 2%;
+border-bottom: solid 2px #520000;
+border-right:solid 2px #520000;
+  }
+  .ncleared p{
+    color: white;
+    font-family: sans-serif;   
+margin: 0;      
+font-size: 19px;
+font-weight: 800;
+}
+.ncleared button{
+  background-color: inherit;
+  border-radius: 50%;
+  border-style: none;
+  height: 32px;
+  width: 31px;
+  font-size: 25px;
+  color: white;
+}
+.cleared{
+  display: none;
+}
+.nsent{
+  background-color: green;
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 13px;
+  position: fixed;
+  top: 23%;
+  right: 2%;
+  border-bottom: solid 2px #074200;
+  border-right: solid 2px #074200;
+      }
+
+.nsent button{
+  background-color: inherit;
+  border-radius: 50%;
+  border-style: none;
+  height: 32px;
+  width: 31px;
+  font-size: 25px;
+  color: white;
+}
+.nsent p{
+  color: white;
+  font-family: sans-serif;   
+margin: 0;      
+font-size: 17px;
+font-weight: 600;
+}
+.sent{
+  display: none;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+
+}
+.social-media-btns{
+  display: flex;
+  width: fit-content;
+  background-color: #0664cb9e;
+  height: 200px;
+justify-content: space-around;
+align-items: center;
+margin-top: -110px;
+}
+.social-media-btns a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 55px;
+  width: 55px;
+  border-radius: 5px;
+  font-size: 29px;
+  cursor: pointer;
+  transition: all .3s ease;
+  text-decoration: none;
+}
+.fa-facebook-f{
+  color: blue;
+}
+.fa-instagram{
+  color: #833ab4;
+}
+.fa-discord{
+  color:#7289DA;
+}
+.fa-linkedin-in{
+  color: blue;
+}
+.social-media-btns a:nth-child(1):hover {
+background-color: blue;
+border-bottom: solid 3px black;
+border-left: solid 3px black;
+}
+.social-media-btns a:nth-child(1):hover .fa-facebook-f{
+  color: white;
+  }
+
+  .social-media-btns a:nth-child(2):hover {
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-bottom: solid 3px black;
+    border-left: solid 3px black;
+    }
+    .social-media-btns a:nth-child(2):hover .fa-instagram{
+      color: white;
+    }
+    .social-media-btns a:nth-child(3):hover {
+      background-color: black;
+      border-bottom: solid 3px grey;
+      border-left: solid 3px grey;
+      }
+
+      .social-media-btns a:nth-child(3):hover .fa-github{
+        color: white;
+      }
+      .social-media-btns a:nth-child(4):hover {
+        background-color: #7289DA;
+        border-bottom: solid 3px black;
+        border-left: solid 3px black;
+        }
+        .social-media-btns a:nth-child(4):hover .fa-discord{
+          color: white;
+        }
+
+        .social-media-btns a:nth-child(5):hover {
+          background-color: blue;
+          border-bottom: solid 3px black;
+          border-left: solid 3px black;
+          }
+          .social-media-btns a:nth-child(5):hover .fa-linkedin-in{
+            color: white;
+          }
+          @media screen and (max-width : 466px){
+            .double-inp-contact{
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: flex-start;
+            }
+            .double-inp-contact input{
+              padding: 24px 0;
+            }
+          }

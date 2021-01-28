@@ -1,0 +1,30 @@
+.page-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 122px;
+    padding: 50px 0;
+    border-top: double white 3px;
+    border-bottom: double white 3px;
+}
+
+.aligning-typing{
+    display: flex;
+    justify-content: center;
+    padding-top: 185px;
+}
+.typer{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.page-title path{
+    opacity: 80%;
+}
+@media (max-width :415px ){
+  
+.aligning-typing{
+    display: flex;
+    justify-content: center;
+    padding-top: 372px;
+}
+}

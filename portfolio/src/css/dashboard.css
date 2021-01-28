@@ -1,0 +1,71 @@
+.custommail-section , .adresses-section{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.card-custommail{
+    background-color: blue;
+   margin: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.custommailsSection , .adressesSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custommailsSection h2 , .adressesSection h2{
+color: white;
+padding: 20px 0;
+}
+.ordersmailsSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ordersmailsSection h2{
+    color: white;
+    padding: 20px 0;
+}
+.ordersmail-section{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.custident{
+    line-break: anywhere;
+}
+.card-custommail button{
+   background-color: white;
+   color: blue;
+   margin:15px 0;
+   border: none;
+   border-radius: 15px;
+}
+.card-custommail p{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.visitors-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.visitors-section h2{
+    color: white;
+    font-family: sans-serif;
+}
+.visitors-section p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}

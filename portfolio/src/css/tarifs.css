@@ -1,0 +1,204 @@
+.tarifs-section{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width:32%;
+    margin:33px 5px;
+    background-color:#fff;
+    text-align:center;
+    padding:0 20px;
+    border-radius:8px;
+    position: relative;
+    transition: background-color .8s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content h2{    
+    margin:30px 0;
+    color:var(--color);
+    font-weight:700;
+}
+
+.content ul{
+    list-style:none;
+    margin:0;
+    margin-top:30px;
+    padding:0;
+}
+
+.content ul li{
+    margin:15px 0;
+    color:#747474;
+}
+
+.content button{
+background:none;
+outline:none;
+border:none;
+color:#fff;
+background-color:#2980b9b0;
+padding:10px 25px;
+border-radius:50px;
+font-weight:600;
+transition:.4s;
+margin: 25px auto;
+width: 200px;
+}
+
+.content button:hover{
+background-color:var(--color);
+}
+
+.content span{
+    font-weight:750;
+    font-size:32px;
+    text-transform:uppercase;    
+}
+.content:hover{
+    background-color:var(--color);
+}
+
+.content:hover h2{
+    color:#fff;
+}
+
+.content:hover button{
+    background-color: #fff;
+    color:var(--color);
+}
+
+.content:hover ul li{
+    color:#fff;
+}
+.tarifs-static-content{
+    display: flex;
+    flex-direction: column;
+align-items: flex-start;
+}
+.custom-select{
+    width: 86px;
+}
+.button-select-cont{
+    display: flex;
+align-items: center;
+}
+.tarfis-third-content button{
+    cursor:not-allowed;
+}
+.tarifs-second-section{
+    display: flex;
+    justify-content: center;
+}
+.content:hover li > i{
+    color: green;
+}
+.content li > i{
+    padding-right: 5px;
+}
+.Modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+}
+.order-content{
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+}
+.input-contents{
+    display: flex;
+    flex-direction: column;
+}
+.modal-styles{
+    position: absolute;
+    background-color: var(--color);
+    top                   : 65%;
+      left                  : 50%;
+      right                 : auto;
+      bottom                : auto;
+      margin-right           : -50%;
+      transform             : translate(-50%, -50%);
+      width                 : 370px;
+}
+
+.order-content span{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #d5d5d5;
+}
+.order-content span > i{
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+}
+.order-content{
+    margin-top: -42px;
+}
+.Modal h2{
+    background-color: white;
+    border-radius: 50%;
+height: 90px;
+width: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+}
+.Modal h2 > i{
+    color: var(--color);
+}
+.input-contents{
+    margin-top: -53px;
+}
+.input-contents input{
+    margin: 10px 0;
+    width: 300px;
+    padding: 5px 2px 5px 5px;
+    border-radius: 5px;
+    border-style: none;
+    border:1px solid blue;
+}
+.input-contents textarea{
+    border-radius: 5px;
+    border-style: none;
+    border:1px solid blue;
+}
+.order-btns button{
+    padding: 8px 35px;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--color);
+    border-style: none;
+    border: 1px solid blue;
+}
+.order-btns{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+.tarif-section{ padding-top: 120px;}
+
+.showordermessagesent{
+    display:none;
+}
+.showordermessagenotsent{
+    color: white;
+    font-family: sans-serif;
+}
+.namebuysection::-webkit-input-placeholder {
+    color: blue;
+    font-size: 15px;
+  }
+  .emailbuysection::-webkit-input-placeholder {
+    color: blue;
+    font-size: 15px;
+  }
+  .messagebuysection::-webkit-input-placeholder {
+    color: blue;
+    font-size: 15px;
+  }
